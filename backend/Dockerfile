@@ -8,8 +8,8 @@ RUN gradle build -x test
 
 FROM openjdk:17
 
-COPY --from=Build /app/build/libs/backend-0.0.1-SNAPSHOT.jar /app/backend.jar
+COPY --from=Build /app/build/libs/coinjoiner-0.0.1-SNAPSHOT.jar /app/coinjoiner.jar
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "/app/backend.jar", "--spring.profiles.active=prod"]
+CMD ["java", "-jar", "/app/coinjoiner.jar", "--spring.profiles.active=prod"]
