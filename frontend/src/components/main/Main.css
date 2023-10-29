@@ -1,0 +1,157 @@
+.main{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.bitcoin img{
+    transform: rotate(18deg);
+    opacity: 0.15;
+}
+
+.title{
+    max-width: 600px;
+}
+
+.big-title{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.small-title{
+    font-size: 24px;
+}
+
+.active{
+    display: block;
+}
+
+.form-container{
+    position: absolute;
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(19, 17, 17, 0.54);
+    display: none;
+}
+
+.form{
+    width: 350px;
+    background-color: #3b3a3a;
+    height: 430px;
+    box-shadow: rgba(81, 81, 89, 0.2) 0px 7px 29px 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -175px;
+    margin-top: -215px;
+
+}
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 30px 20px;
+}
+
+.form-title{
+    font-size: 24px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 10px 20px;
+    border-bottom: 1px solid #4E4C4C;
+}
+
+.form-title-text{
+    font-size: 16px;
+}
+
+.form-title-image{
+    justify-self: right;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.form-content-main{
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.vk{
+    width: 150px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4F4E4E;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.vk:hover{
+    background-color: #5d5c5c;
+    transition: 0.2s;
+}
+
+.vk img{
+    opacity: 0.4;
+}
+
+.label{
+    display: flex;
+    justify-content: space-around;
+}
+
+.label div, .label div span{
+    font-size: 14px;
+}
+
+.form-checkbox{
+    background: #4F4E4E;
+}
+
+.form-footer{
+    border-top: 1px solid #4E4C4C;
+    padding-top: 20px;
+}
+
+.form-footer, .form-footer span{
+    font-size: 11px;
+}
+
+.label div, .form-footer span{
+    color: #C5C5C5;
+}
+
+.active{
+    display: block;
+}
+
+.none{
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .bitcoin{
+        display: none;
+    }
+
+}
