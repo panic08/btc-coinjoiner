@@ -4,7 +4,9 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/frontend">
       <excludeFolder url="file://$MODULE_DIR$/frontend/build" />
+      <excludeFolder url="file://$MODULE_DIR$/frontend/node_modules" />
     </content>
+    <content url="file://$MODULE_DIR$/frontend/node_modules" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
